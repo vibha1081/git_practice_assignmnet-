@@ -7,6 +7,7 @@ function checkPalindrome(string) {
     if (string[i] !== string[len - 1 - i]) {
       result = 'It is not a palindrome';
     }
-    console.log(result);
   }
+
+  console.log(result);
 }
